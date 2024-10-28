@@ -69,7 +69,7 @@ header div a {
  }
  
  header div a:hover {
-     background-color: #030a57;
+     background-color: #d8daf0;
  }
  /* Note we can use the .card class selector here, as a class has been assigned to the <section> elements. */
 .card {
