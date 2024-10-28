@@ -30,18 +30,18 @@ nav {
    margin-left: 80px;
  }
  nav a {
-   color: #51279b;
+   color: #9b2729;
    text-decoration: none;
    padding: 10px;
    font-weight: 600;
  }
  
  nav a:visited {
-   color: #8662c7;
+   color: #6284c7;
  }
  
  nav a:hover {
-   color: #8662c7;
+   color: #62c7ae;
    text-decoration: underline;
  }
  header div {
@@ -49,7 +49,7 @@ nav {
  }
  header div {
    margin: 100px 0 0 80px;
-   color: white; /* we can use the cascading nature of CSS to set the color for all the elements within the div */
+   color: rgb(211, 46, 93); /* we can use the cascading nature of CSS to set the color for all the elements within the div */
 }
 header h2 {
  font-size: 48px;
@@ -61,7 +61,7 @@ header p {
 }
 /* We can to target header.div.a because if we taget simply a, then these styles will affect our navigation links as well */
 header div a {
-   background-color: #51279b;
+   background-color: #2cb970;
    color: white;
    padding: 10px 20px;
    text-decoration: none;
@@ -69,7 +69,7 @@ header div a {
  }
  
  header div a:hover {
-     background-color: #8662c7;
+     background-color: #08f5dd;
  }
  /* Note we can use the .card class selector here, as a class has been assigned to the <section> elements. */
 .card {
