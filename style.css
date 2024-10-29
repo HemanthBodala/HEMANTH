@@ -61,7 +61,7 @@ header p {
 }
 /* We can to target header.div.a because if we taget simply a, then these styles will affect our navigation links as well */
 header div a {
-   background-color: #2cb970;
+   background-color: #03582c;
    color: white;
    padding: 10px 20px;
    text-decoration: none;
@@ -69,7 +69,7 @@ header div a {
  }
  
  header div a:hover {
-     background-color: hsl(235, 82%, 44%);
+     background-color: hsl(235, 74%, 51%);
  }
  /* Note we can use the .card class selector here, as a class has been assigned to the <section> elements. */
 .card {
